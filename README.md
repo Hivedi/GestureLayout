@@ -63,6 +63,6 @@ repositories {
 ## Dependency:
 ```
 dependencies {
-    compile 'com.github.Hivedi:GestureLayout:1.0.0'
+    compile 'com.github.Hivedi:GestureLayout:1.0.1'
 }
 ```
