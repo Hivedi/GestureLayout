@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<declare-styleable name="GestureLayout">
+		<attr name="gestureRippleRadius" format="dimension" />
+		<attr name="gestureRippleColor" format="color" />
+		<attr name="gestureDrawLineUnderFinger" format="boolean" />
+	</declare-styleable>
+
+ </resources>
