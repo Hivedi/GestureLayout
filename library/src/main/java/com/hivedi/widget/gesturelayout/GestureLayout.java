@@ -197,7 +197,7 @@ public class GestureLayout extends RelativeLayout {
 	@Override
 	protected void dispatchDraw(Canvas canvas) {
 		Animation animation = getAnimation();
-		if (animation != null && animation instanceof ValueAnimation && !animation.hasEnded()) {
+		if (animation != null && animation instanceof ValueAnimation && !animation.hasEnded() && touch != null) {
 			ValueAnimation valueAnimation = (ValueAnimation) animation;
 			paint.setAlpha((int) (127 * (1 - valueAnimation.getInterpolation())));
 			canvas.drawCircle(touch.x, touch.y, valueAnimation.getValue(), paint);
